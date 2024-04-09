@@ -1,0 +1,68 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title:  Social Media, Ethics, and Automation
+author: Kyle Thayer and Susan Notess
+copyright: "2023"  # Copyright year to be placed in the footer
+logo: logo.png
+
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", demo_jupyterbook_files, unused, "**-discord.**", "**-reddit.**", "**-supporting_code.**", "fake_apis", "_intro_source.md"]
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - deflist
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: label
+    bibtex_default_style: unsrt
+    bibtex_bibfiles: ["ch01_intro/ch01_references.bib", "ch02_definitions/ch02_references.bib", 
+    "ch03_bots/ch03_references.bib", "ch04_data/ch04_references.bib", "ch05_history/ch05_references.bib",
+    "ch06_authenticity/ch06_references.bib", "ch07_trolling/ch07_references.bib", "ch08_data_mining/ch08_references.bib",
+    "ch09_privacy/ch09_references.bib", "ch10_accessibility/ch10_references.bib", "ch11_recommendations/ch11_references.bib",
+    "ch12_virality/ch12_references.bib", "ch13_mental_health/ch13_references.bib", "ch14_moderation/ch14_references.bib",
+    "ch15_moderators/ch15_references.bib", "ch16_crowdsourcing/ch16_references.bib", "ch17_harassment/ch17_references.bib",
+    "ch18_public_shaming/ch18_references.bib", "ch19_capitalism/ch19_references.bib", "ch20_colonialism/ch20_references.bib",
+    "ch21_conclusions/ch21_references.bib"]
+
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/social-media-ethics-automation/book-src-bsky/
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+launch_buttons:
+  notebook_interface: "jupyterlab"  # or "classic"
+  # colab_url: "https://colab.research.google.com"
+  binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
+  # thebe: true
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+  favicon: favicon.ico
+  extra_footer: >
+    <script type="application/json" class="js-hypothesis-config">
+      {
+        "showHighlights": "whenSidebarOpen"
+      }
+    </script>
+    <script async src="https://hypothes.is/embed.js"></script>

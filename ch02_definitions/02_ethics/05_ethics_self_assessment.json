@@ -1,0 +1,131 @@
+[
+    {
+        "question": "Which of these common ethical principles is commonly called the \"Golden Rule\" in English?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Never lie",
+                "correct": false
+            },
+            {
+                "answer": "Treat others the way you would like to be treated",
+                "correct": true
+            },
+            {
+                "answer": "Take care of yourself and don't care about anyone else",
+                "correct": false
+            },
+            {
+                "answer": "Life sucks and then you die",
+                "correct": false
+            }
+        ]
+    },    
+    
+    {
+        "question": "Which ethics framework emphasizes says that 'Actions are right roughly insofar as they are a matter of living harmoniously with others or honouring communal relationships'?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Ubuntu Ethics",
+                "correct": true
+            },
+            {
+                "answer": "Deontology",
+                "correct": false
+            },
+            {
+                "answer": "Existentialism",
+                "correct": false
+            },
+            {
+                "answer": "Nihilism",
+                "correct": false
+            }
+        ]
+    },   
+    {
+    "question": "Which ethics framework emphasizes that 'the ends justify the means'?",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Deontology",
+            "correct": false
+        },
+        {
+            "answer": "Consequentialism",
+            "correct": true
+        },
+        {
+            "answer": "Virtue Ethics",
+            "correct": false
+        }
+    ]
+},
+{
+    "question": "Which ethics framework emphasizes 'unforced actions in harmony with the natural cycles of the universe'?",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ubuntu Ethics",
+            "correct": false
+        },
+        {
+            "answer": "Confucianism",
+            "correct": false
+        },
+        {
+            "answer": "Nihilism",
+            "correct": false
+        },
+        {
+            "answer": "Taoism",
+            "correct": true
+        }
+    ]
+},
+{
+    "question": "Which ethics framework says the most ethical thing to do is be selfish?",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Natural Rights",
+            "correct": false
+        },
+        {
+            "answer": "Egoism",
+            "correct": true
+        },
+        {
+            "answer": "Ubuntu Ethics",
+            "correct": false
+        },
+        {
+            "answer": "Ethics of Care",
+            "correct": false
+        }
+    ]
+},
+{
+    "question": "Which ethics framework includes equality not only for people, but also air, water, plants, etc.",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Virtue Ethics",
+            "correct": false
+        },
+        {
+            "answer": "Natural Rights",
+            "correct": false
+        },
+        {
+            "answer": "American Indigenous Ethics",
+            "correct": true
+        },
+        {
+            "answer": "Egoism",
+            "correct": false
+        }
+    ]
+}
+]

@@ -1,0 +1,4 @@
+# Writing Project
+
+```{tableofcontents}
+```

@@ -1,0 +1,9 @@
+@media print {
+    .skip-link {
+        visibility: hidden;
+    }
+}
+
+.transparent-background {
+    background-color: transparent !important;
+}

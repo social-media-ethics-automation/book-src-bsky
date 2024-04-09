@@ -1,0 +1,9 @@
+jupyter-book
+matplotlib
+numpy
+tweepy
+praw
+discord
+jupyterquiz
+nltk
+nest_asyncio
