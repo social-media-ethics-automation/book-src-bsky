@@ -7,7 +7,7 @@ While we have made a fake version of Discord for you to test all the code in thi
 ## Sign up for Discord
 [https://discord.com/register](https://discord.com/register)
 
-We suggest making a new, separate Discord account, just for making Discord bots, since you don't want to accidentally get your main Discord account banned or labeled as a bot.
+We suggest making a new, separate Discord account, just for making Discord bots, since you don't want to accidentally get your main Discord account banned or labeled as a bot. Also we suggest using a different password than you use for other accounts, since you might accidentally share it with your code.
 
 Note: If you want to make a new account and you already have one, you may need to sign out from your current account, use a different email address, or use a different web browser (e.g., Mozilla, Google Chrome, Microsoft Edge, Safari).
 
@@ -147,7 +147,7 @@ Copy the channel ID by right clicking.
 Save the channel ID somewhere so you can have your bot reference it later (e.g., post to that channel).
 
 ##  Test your tokens
-Now that you have your token, and other info, you can test out your code in chapter 2.3.8 ([](../../ch02_definitions/03_automation/08_demo.ipynb)). You can try running the code and replacing the fake discord token and channel ids with the ones from your account, and see if you can use the code to post an actual tweet to your account.
+Now that you have your token, and other info, you can test out your code in chapter 2.3.8 ([](../../ch02_definitions/03_automation/08_demo.ipynb)). You can try running the code and replacing the fake discord token and channel ids with the ones from your account, and see if you can use the code to make an actual post to your account.
 
-## Understand Reddit Rules for Bots
-Before you try doing anything too creative with reddit  bots, make sure you look over the [Discord Developer Policy](https://discord.com/developers/docs/policies-and-agreements/developer-policy), that way you don't get yourself banned.
+## Understand Discord Rules for Bots
+Before you try doing anything too creative with Discord bots, make sure you look over the [Discord Developer Policy](https://discord.com/developers/docs/policies-and-agreements/developer-policy), that way you don't get yourself banned.

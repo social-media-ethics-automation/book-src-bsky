@@ -7,11 +7,10 @@ Don't worry if you don't understand any of this Python code yet; we will build a
 ```python
 from atproto import Client
 
-client = Client(base_url='https://bsky.social')
-client.login('your_account_name.bsky.social', 'm#5@_fake_bsky_password_$%Ds')
+client = Client(base_url="https://bsky.social")
+client.login("your_account_name.bsky.social", "m#5@_fake_bsky_password_$%Ds")
 
-post = client.send_post('This post was made by a computer program!')
-
+client.send_post("This post was made by a computer program!")
 ```
 
 Though you may not understand anything in the above code yet, I want to point out a couple things:

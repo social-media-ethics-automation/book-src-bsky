@@ -11,22 +11,19 @@ Below I've highlighted the text of the sections of the program that you might wa
 <pre style="color:gray">
 from atproto import Client
 
-client = Client(base_url='https://bsky.social')
-client.login('<strong style="color:black;background-color:lightgreen">your_account_name.bsky.social</strong>', '<strong style="color:black;background-color:lightgreen">m#5@_fake_bsky_password_$%Ds</strong>')
+client = Client(base_url="https://bsky.social")
+client.login("<strong style="color:black;background-color:lightgreen">your_account_name.bsky.social</strong>", "<strong style="color:black;background-color:lightgreen">m#5@_fake_bsky_password_$%Ds</strong>")
 
-post = client.send_post('<strong style="color:black;background-color:lightgreen">This post was made by a computer program!</strong>')
-
+client.send_post("<strong style="color:black;background-color:lightgreen">This post was made by a computer program!</strong>")
 </pre>
 
-The first four highlighted pieces of code are for the special passwords that let you run a bot. You can get when you get those passwords by following these steps to get [developer access to reddit](../../appendix/making_bot_account.md) (I've put fake values in them for now):
-- username
+The first two highlighted pieces of code are for your Bluesky handle (e.g. something.bsky.social) and password (note: If you make your account at a different domain name than the default "bsky.social," then you'd also need to change the part above that has `https://bsky.social`). You can create a Bluesky account by [following the steps here](../../appendix/making_bot_account.md) (I've put fake values in them for now):
+- handle
 - password
-- client_id
-- client_secret
 
-The final three highlighted pieces of code are the information for what to post on reddit. First, in the parentheses after `subreddit` is which subreddit to post on. In the parentheses after the `submit` is first the title of the post, and next is the text of the post itself. You can change any of these values ot change which subreddit you post to, and what title and text to post.
+The final highlighted piece of code is the text to post to Bluesky. You can change the text of these values to change what text to post.
 
-So, by changing those sections of code, you run this program to post whatever reddit you want to post on a subreddit. It is, of course, much easier to just open reddit and post something, but as we get to more complicated programs, we'll start to see more of the power (and pitfalls) of automation on social media.
+So, by changing those sections of code, you run this program to post whatever you want to post on Bluesky. It is, of course, much easier to just open Bluesky and post something, but as we get to more complicated programs, we'll start to see more of the power (and pitfalls) of automation on social media.
 
 _Note: all the highlighted sections of code are surrounded by double quotes. In the Python programming language, putting something in quotes indicates that you want the computer to think of the things inside the quotes as pieces of text, in this case passwords and reddit post information._
 
@@ -41,30 +38,14 @@ In Python, you can add a comment by using the `#` symbol. Python will ignore eve
 So, in order to make the program above easier for future humans to understand, let's add two comments telling these future humans where to add their special passwords and where they can change the text of the post:
 
 ```python
-import praw
+from atproto import Client
 
-# TODO: Put your reddit username, password, and special developer access passwords below:
-username="fake_reddit_username"
-password="sa@#4*fdf_fake_password_$%DSG#%DG"
-client_id="45adf$TW_fake_client_id_JESdsg1O"
-client_secret="56sd_fake_client_secret_%Yh%"
+# TODO: put your account name and password below
+client = Client(base_url="https://bsky.social")
+client.login("your_account_name.bsky.social", "m#5@_fake_bsky_password_$%Ds")
 
-reddit = praw.Reddit(
-    username=username, password=password,
-    client_id=client_id, client_secret=client_secret,
-    user_agent="a custom python script"
-)
-
-
-
-# TODO: modify the text in the quotes below to change what and where this bot posts to reddit:
-reddit.subreddit(
-   "soc_media_ethics_auto"
-).submit(
-   "A bot post", 
-   selftext = "This post was made by a computer program!"
-)
-
+# TODO: modify the text in the quotes below to change what this bot posts to Bluesky:
+client.send_post("This post was made by a computer program!")
 ```
 
 With those, hopefully a future human reader will have a better chance of understanding how to modify the program to do what they want.
@@ -80,47 +61,26 @@ _Note: It's normal if you don't understand everything here. Over the course of t
 
 The first line of code is:
 ```python
-import praw
+from atproto import Client
 ```
 
-The purpose of this line of code that loads another set of code. The code it loads is called [praw](https://praw.readthedocs.io/en/stable/) {cite:p}`PRAWDocumentation` (The Python Reddit API Wrapper), which is code specially written to help make programs that work with Reddit.
+The purpose of this line of code that loads another set of code. The it loads is called [atproto](https://atproto.blue/), which is short for "The AT Protocol SDK for Python," and is code specially written to help make programs that work with Bluesky's [AT Protocol](https://atproto.com/). From this code, we specifically load the [Client](https://atproto.blue/en/latest/atproto_client/index.html) section of code, which is what lets us login to an account and perform actions.
 
 
-The next section of code is four lines long:
+The next section of code is two lines long:
 ```python
-username="fake_reddit_username"
-password="sa@#4*fdf_fake_password_$%DSG#%DG"
-client_id="45adf$TW_fake_client_id_JESdsg1O"
-client_secret="56sd_fake_client_secret_%Yh%"
+client = Client(base_url="https://bsky.social")
+client.login("your_account_name.bsky.social", "m#5@_fake_bsky_password_$%Ds")
 ```
 
-This is code to store all of the reddit password information we need to use a bot. You need your reddit username and password, and then a special client_id and client_secret for the bot. Again, you'll have to get your actual developer access passwords and replace the fake ones currently in the code.
+The purpose of this code is to connect to Bluesky and login with your username and password. Again, you'll have to replace our fake usernames and passwords with your actual username and password in the code if you want it to work with your account.
 
-The next section of code is five lines long:
-
+The final lines of code is:
 ```python
-reddit = praw.Reddit(
-    username=username, password=password,
-    client_id=client_id, client_secret=client_secret,
-    user_agent="a custom python script"
-)
+client.send_post("This post was made by a computer program!")
 ```
 
-The purpose of this code is to take all the developer access passwords you entered above, and give them to the praw code so that the praw code can log into your reddit account and provide the needed passwords for running a reddit bot. 
-
-Note that the last line is setting the `user_agent` which is a description of which program is being used to post from. For example, it might be "Reddit web page" or "Reddit iPhone app" or "Sprout social media manager." For our programs, I've just labeled our posts as being from "a custom python script."
-
-The final lines of code are:
-```python
-reddit.subreddit(
-   "soc_media_ethics_auto"
-).submit(
-   "A bot post", 
-   selftext = "This post was made by a computer program!"
-)
-```
-
-These are the lines of code where a reddit post is actually made. First, the `subreddit` section selects which subreddit an action will be taken on, and then `submit` creates a new post with the given title and text.
+This is the line of code where a Bluesky post is actually made. The new post will have the text that is inside the quotation marks.
 
 ## Adding more code comments
 Now that we've looked at the purpose of each section of code, we can copy our bot code one more time, now adding comments explaining what each section does, so that future humans reading the code are more likely to understand it.
@@ -128,32 +88,17 @@ Now that we've looked at the purpose of each section of code, we can copy our bo
 Following the common practice of programmers, we will put the comment before the section of code that the comment is explaining. We can also make multiple comment lines as needed if our comments are long.
 
 ```python
-# Load some code called "praw" that will help us work with reddit
-import praw
+# Load some code called "Client" from the "atproto" library that will help us work with Bluesky
+from atproto import Client
 
-# Load all your developer access passwords into Python
-# TODO: Put your reddit username, password, and special developer access passwords below:
-username="fake_reddit_username"
-password="sa@#4*fdf_fake_password_$%DSG#%DG"
-client_id="45adf$TW_fake_client_id_JESdsg1O"
-client_secret="56sd_fake_client_secret_%Yh%"
+# Login to Bluesk
+# TODO: put your account name and password below
+client = Client(base_url="https://bsky.social")
+client.login("your_account_name.bsky.social", "m#5@_fake_bsky_password_$%Ds")
 
-# Give the praw code your reddit account info so
-# it can perform reddit actions
-reddit = praw.Reddit(
-    username=username, password=password,
-    client_id=client_id, client_secret=client_secret,
-    user_agent="a custom python script"
-)
-
-# Post a reddit post
-# TODO: modify the text in the quotes below to change what and where this bot posts to reddit:
-reddit.subreddit(
-   "soc_media_ethics_auto"
-).submit(
-   "A bot post", 
-   selftext = "This post was made by a computer program!"
-)
+# Send a Bluesky post
+# TODO: modify the text in the quotes below to change what this bot posts to Bluesky:
+client.send_post("This post was made by a computer program!")
 ```
 
 Now that we've looked over the code and commented it, let's go to the next page, where you can try running it!
