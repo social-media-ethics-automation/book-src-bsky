@@ -74,9 +74,9 @@ parts:
           - file: ch04_data/05_data_python_platform/01_demo_data
           - file: ch04_data/05_data_python_platform/02_practice_data
           - file: ch04_data/05_data_python_platform/03_demo_data_from_platform
-          - file: ch04_data/05_data_python_platform/04_activity
-      - file: ch04_data/06_reflection_in_data_design
-      - file: ch04_data/07_bibliography
+      - file: ch04_data/06_data_design_activity
+      - file: ch04_data/07_reflection_in_data_design
+      - file: ch04_data/08_bibliography
     - file: ch05_history/00_history
       sections:
       - file: ch05_history/01_pre_internet
