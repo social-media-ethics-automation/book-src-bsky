@@ -64,18 +64,17 @@ Reset your token and save it somewhere.
 ## Get Bot Invite Link
 Next we need to create an invite link so your bot can be added to different discord servers. 
 
-To do this use the OAuth2 tab for your application. First, set Authorization method to "In-app Authorization." 
+To do this use the OAuth2 tab for your application. (Note: if you see an option to set Authorization method, set it to "In-app Authorization")
 
 ```{figure} discord_set_oath_inapp_authorize.png
 ---
 name: discord_set_oath_inapp_authorize_fig
-alt: "Screenshot of discord developer application screen with OAuth2 General tab selected and the \"Authorization Method\" dropdown opened with the \"In-app Authorization\" option circled."
+alt: "Screenshot of discord developer application screen with OAuth2 General tab selected."
 ---
-Set Authorization method to "In-app Authorization."
+Select OAuth2 (and set Authorization method to "In-app Authorization" if asked)
 ```
 
-
-Doing this will give you a bunch of options for permissions your bot might need. We've selected a good starting set of permissions to let you do most things you'll probably want to do with your bot.
+This may  give you a bunch of options for permissions your bot might need. We've selected a good starting set of permissions to let you do most things you'll probably want to do with your bot.
 
 ```{figure} discord_set_oath_permissions.png
 ---
