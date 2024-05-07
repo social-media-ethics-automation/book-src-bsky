@@ -38,7 +38,7 @@ One of the changes was that some men in the computer business figured out how to
 
 Another change was that as computers became small enough for people to buy them for their homes, they became seen as toys for boys and not girls. The same transition is seen in video game consoles from being for the whole family to [being for boys only](https://www.polygon.com/features/2013/12/2/5143856/no-girls-allowed) {cite:p}`lienNoGirlsAllowed2013` (e.g., the Nintendo [Game Boy](https://en.wikipedia.org/wiki/Game_Boy) {cite:p}`GameBoy2023`). In the end, computer programming became profitable and male-dominated.
 
-As many are trying to get women into programming, so that they aren't cut out of profitable and important fields, [Amy Nguyen warns](https://amy.dev/?p=489) that men might just decide that programming is low status again (as has happened before in many fields):
+As many are trying to get women into programming, so that they aren't cut out of profitable and important fields, [Amy Nguyen warns](https://amy.dev/?p=489) {cite:p}`nguyen_your_2023` that men might just decide that programming is low status again (as has happened before in many fields):
 >  The history of women in the workplace always tells the same story: women enter a male-dominated profession, only to find that it’s no longer a respectable field. Because they’re a part of it, so men leave in droves. Because women do it, and therefore it must not be important. Because society would rather discredit an entire profession than acknowledge that a female-dominated field might be doing something that actually matters.
 
 
@@ -48,3 +48,4 @@ As many are trying to get women into programming, so that they aren't cut out of
   - [poultry industry](https://twitter.com/SarahTaber_bww/status/1516595427784769546)
   - [women's sports](https://twitter.com/shereebekker/status/1504899936843935746)
 % alt copy for women's sports: https://www.getrevue.co/profile/shereebekker/issues/holding-space-issue-15-962804?via=twitter-card&client=DesktopWeb&element=issue-card
+- [Do wages fall when women enter an occupation?](https://www.sciencedirect.com/science/article/pii/S0927537121001378) {cite:p}`harris_wages_2022`
