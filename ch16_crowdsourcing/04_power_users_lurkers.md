@@ -1,6 +1,8 @@
 # Power Users and Lurkers
 When looking at who contributes in crowdsourcing systems, or with social media in generally, we almost always find that we can split the users into a small group of __power users__ who do the majority of the contributions, and a very large group of __lurkers__ who contribute little to nothing. For example, [Nearly All of Wikipedia Is Written By Just 1 Percent of Its Editors](https://www.vice.com/en/article/7x47bb/wikipedia-editors-elite-diversity-foundation) {cite:p}`oberhausNearlyAllWikipedia2017`, and on StackOverflow “[A 2013 study has found that 75% of users only ask one question, 65% only answer one question, and only 8% of users answer more than 5 questions.](https://en.wikipedia.org/wiki/Stack_Overflow)” {cite:p}`StackOverflow2023`. We see the same phenomenon on Twitter:
 
+% TODO: Note on fact checking/reliability of wikipedia vs. books (non-fiction books are not fact checked: https://www.theatlantic.com/newsletters/archive/2024/05/the-book-youre-reading-might-be-wrong/678345/)
+
 ```{figure} twitter_stats.png
 ---
 name: twitter_stats_fig
