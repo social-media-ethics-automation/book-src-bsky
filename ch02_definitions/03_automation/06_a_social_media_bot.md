@@ -1,5 +1,5 @@
 # A program that makes one Bluesky post
-_Choose Social Media Platform: <a href='../../../reddit/ch02_definitions/03_automation/06_a_social_media_bot.html'>Reddit</a> | <a href='../../../discord/ch02_definitions/03_automation/06_a_social_media_bot.html'>Discord</a> | __Bluesky___
+_Choose Social Media Platform: <a href='../../../reddit/ch02_definitions/03_automation/06_a_social_media_bot.html'>Reddit</a> | <a href='../../../discord/ch02_definitions/03_automation/06_a_social_media_bot.html'>Discord</a> | __Bluesky__ | <a href='../../../nocode/ch02_definitions/03_automation/06_a_social_media_bot.html'>No Coding</a>_
 
 
 Below is a computer program written in the Python programming language. The program will make a Bleusky post. The post will say: "This post was made by a computer program!". Since this is a computer program that posts on Bluesky, we would call this program a Bluesky bot.

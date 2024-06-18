@@ -37,10 +37,10 @@ parts:
         - file: ch02_definitions/03_automation/03_binary
         - file: ch02_definitions/03_automation/04_first_programmers
         - file: ch02_definitions/03_automation/05_compilers
-        - file: ch02_definitions/03_automation/06_a_social_media_bot-***
-        - file: ch02_definitions/03_automation/07_details_of_bot-***
-        - file: ch02_definitions/03_automation/08_demo-***
-        - file: ch02_definitions/03_automation/09_reflecting_on_programming
+        - file: ch02_definitions/03_automation/06_a_social_media_bot-***++noprogkeep
+        - file: ch02_definitions/03_automation/07_details_of_bot-***++noprogremove
+        - file: ch02_definitions/03_automation/08_demo-***++noprogremove
+        - file: ch02_definitions/03_automation/09_reflecting_on_programming-***++noprogremove
         - file: ch02_definitions/03_automation/10_automation_in_social_media
       - file: ch02_definitions/04_tying_them_together
       - file: ch02_definitions/05_bibliography
@@ -51,8 +51,8 @@ parts:
       - file: ch03_bots/03_anatomy_of_a_bot/00_intro
         sections:
           - file: ch03_bots/03_anatomy_of_a_bot/01_control_flow_options
-          - file: ch03_bots/03_anatomy_of_a_bot/02_demo_statements_variables_sleep
-          - file: ch03_bots/03_anatomy_of_a_bot/03_practice_statements_variables_sleep-***
+          - file: ch03_bots/03_anatomy_of_a_bot/02_demo_statements_variables_sleep-***++noprogkeep
+          - file: ch03_bots/03_anatomy_of_a_bot/03_practice_statements_variables_sleep-***++noprogremove
       - file: ch03_bots/04_bots_and_responsibility
       - file: ch03_bots/05_bot_activity
       - file: ch03_bots/06_bibliography
@@ -69,11 +69,11 @@ parts:
       - file: ch04_data/02_data_simplification
       - file: ch04_data/03_who_data_fits
       - file: ch04_data/04_data_informing_ethics
-      - file: ch04_data/05_data_python_platform/00_intro-***
-        sections:
-          - file: ch04_data/05_data_python_platform/01_demo_data-***
-          - file: ch04_data/05_data_python_platform/02_practice_data
-          - file: ch04_data/05_data_python_platform/03_demo_data_from_platform-***
+      - file: ch04_data/05_data_python_platform/00_intro-***++noprogkeep
+        sections:++noprogremove
+          - file: ch04_data/05_data_python_platform/01_demo_data-***++noprogremove
+          - file: ch04_data/05_data_python_platform/02_practice_data++noprogremove
+          - file: ch04_data/05_data_python_platform/03_demo_data_from_platform-***++noprogremove
       - file: ch04_data/06_data_design_activity
       - file: ch04_data/07_reflection_in_data_design
       - file: ch04_data/08_bibliography
@@ -82,11 +82,11 @@ parts:
       - file: ch05_history/01_pre_internet
       - file: ch05_history/02_web_1
       - file: ch05_history/03_web_2
-      - file: ch05_history/04_list_data_python/00_intro.md
-        sections:
-          - file: ch05_history/04_list_data_python/01_demo_lists
-          - file: ch05_history/04_list_data_python/02_demo_dictionaries-***
-          - file: ch05_history/04_list_data_python/03_practice_lists_dictionaries
+      - file: ch05_history/04_list_data_python/00_intro-***++noprogkeep
+        sections:++noprogremove
+          - file: ch05_history/04_list_data_python/01_demo_lists++noprogremove
+          - file: ch05_history/04_list_data_python/02_demo_dictionaries-***++noprogremove
+          - file: ch05_history/04_list_data_python/03_practice_lists_dictionaries++noprogremove
       - file: ch05_history/05_antisocial_media
       - file: ch05_history/06_social_media_design
       - file: ch05_history/07_reflections
@@ -97,7 +97,7 @@ parts:
       - file: ch06_authenticity/02_posting_sources/00_posting_sources
         sections:
           - file: ch06_authenticity/02_posting_sources/01_authenticity_trump
-          - file: ch06_authenticity/02_posting_sources/02_demo_practice_author_info-***
+          - file: ch06_authenticity/02_posting_sources/02_demo_practice_author_info-***++noprogkeep
       - file: ch06_authenticity/03_inauthenticity
       - file: ch06_authenticity/04_personas
       - file: ch06_authenticity/05_parasocial_relationships
@@ -111,25 +111,25 @@ parts:
       - file: ch07_trolling/02_origins_trolling
       - file: ch07_trolling/03_trolling_examples
       - file: ch07_trolling/04_responding_to_trolls
-      - file: ch07_trolling/05_trolling_reply_bot/00_introduction
-        sections:
-          - file: ch07_trolling/05_trolling_reply_bot/01_demo_strings_conditionals
-          - file: ch07_trolling/05_trolling_reply_bot/02_practice_strings_conditionals
-          - file: ch07_trolling/05_trolling_reply_bot/03_demo_reply_bot-***
+      - file: ch07_trolling/05_trolling_reply_bot/00_introduction-***++noprogkeep
+        sections:++noprogremove
+          - file: ch07_trolling/05_trolling_reply_bot/01_demo_strings_conditionals++noprogremove
+          - file: ch07_trolling/05_trolling_reply_bot/02_practice_strings_conditionals++noprogremove
+          - file: ch07_trolling/05_trolling_reply_bot/03_demo_reply_bot-***++noprogremove
       - file: ch07_trolling/06_ethics_and_trolling
       - file: ch07_trolling/07_bibliography
     - file: ch08_data_mining/00_data_mining
       sections:
       - file: ch08_data_mining/01_data_sources
-      - file: ch08_data_mining/02_platform_api_data-***
+      - file: ch08_data_mining/02_platform_api_data-***++noprogkeep
       - file: ch08_data_mining/03_data_mining
       - file: ch08_data_mining/04_data_uses
       - file: ch08_data_mining/05_what_platforms_think_of_you
-      - file: ch08_data_mining/06_sentiment_analysis/00_intro
-        sections:
-          - file: ch08_data_mining/06_sentiment_analysis/01_demo_sentiment_and_loop_vars
-          - file: ch08_data_mining/06_sentiment_analysis/02_practice_sentiment_and_loop_vars
-          - file: ch08_data_mining/06_sentiment_analysis/03_demo_sentiment-***
+      - file: ch08_data_mining/06_sentiment_analysis/00_intro-***++noprogkeep
+        sections:++noprogremove
+          - file: ch08_data_mining/06_sentiment_analysis/01_demo_sentiment_and_loop_vars++noprogremove
+          - file: ch08_data_mining/06_sentiment_analysis/02_practice_sentiment_and_loop_vars++noprogremove
+          - file: ch08_data_mining/06_sentiment_analysis/03_demo_sentiment-***++noprogremove
       - file: ch08_data_mining/07_data_poisoning
       - file: ch08_data_mining/08_reflection_questions
       - file: ch08_data_mining/09_bibliography
@@ -138,11 +138,11 @@ parts:
       - file: ch09_privacy/01_privacy_concerns
       - file: ch09_privacy/02_security
       - file: ch09_privacy/03_privacy_violations
-      - file: ch09_privacy/04_tracking_use/00_intro
-        sections:
-          - file: ch09_privacy/04_tracking_use/01_demo_functions
-          - file: ch09_privacy/04_tracking_use/02_practice_functions
-          - file: ch09_privacy/04_tracking_use/03_demo_track_use-***
+      - file: ch09_privacy/04_tracking_use/00_intro-***++noprogkeep
+        sections:++noprogremove
+          - file: ch09_privacy/04_tracking_use/01_demo_functions++noprogremove
+          - file: ch09_privacy/04_tracking_use/02_practice_functions++noprogremove
+          - file: ch09_privacy/04_tracking_use/03_demo_track_use-***++noprogremove
       - file: ch09_privacy/05_activity_gdpr
       - file: ch09_privacy/06_reflections
       - file: ch09_privacy/07_bibliography
@@ -151,9 +151,9 @@ parts:
       - file: ch10_accessibility/01_disability
       - file: ch10_accessibility/02_accessible_design
       - file: ch10_accessibility/03_who_designs
-      - file: ch10_accessibility/04_alt_text/00_intro
-        sections:
-        - file: ch10_accessibility/04_alt_text/01_alt_text
+      - file: ch10_accessibility/04_alt_text/00_intro-***++noprogkeep
+        sections:++noprogremove
+        - file: ch10_accessibility/04_alt_text/01_alt_text++noprogremove
       - file: ch10_accessibility/05_accessibility_on_social_media
       - file: ch10_accessibility/06_bibliography
     - file: ch11_recommendations/00_recommendations
@@ -162,11 +162,11 @@ parts:
       - file: ch11_recommendations/02_ethical_analysis_recommendations
       - file: ch11_recommendations/03_individual_concerns
       - file: ch11_recommendations/04_societal_concerns
-      - file: ch11_recommendations/05_recommend_bot/00_intro
-        sections:
-          - file: ch11_recommendations/05_recommend_bot/01_demo_dictionary_counters
-          - file: ch11_recommendations/05_recommend_bot/02_practice_dictionary_counters
-          - file: ch11_recommendations/05_recommend_bot/03_demo_recommend-***
+      - file: ch11_recommendations/05_recommend_bot/00_intro-***++noprogkeep
+        sections:++noprogremove
+          - file: ch11_recommendations/05_recommend_bot/01_demo_dictionary_counters++noprogremove
+          - file: ch11_recommendations/05_recommend_bot/02_practice_dictionary_counters++noprogremove
+          - file: ch11_recommendations/05_recommend_bot/03_demo_recommend-***++noprogremove
       - file: ch11_recommendations/06_design_recommend
       - file: ch11_recommendations/07_bibliography
     - file: ch12_virality/00_virality
@@ -186,7 +186,7 @@ parts:
       - file: ch13_mental_health/02_unhealthy_activities
       - file: ch13_mental_health/03_healthy_activities
       - file: ch13_mental_health/04_mental_health_detection
-      - file: ch13_mental_health/05_demo_only_positive_news-***
+      - file: ch13_mental_health/05_demo_only_positive_news-***++noprogkeep
       - file: ch13_mental_health/06_design_activity_mental_health
       - file: ch13_mental_health/07_reflections
       - file: ch13_mental_health/08_bibliography
@@ -197,12 +197,12 @@ parts:
       - file: ch14_moderation/03_different_platforms
       - file: ch14_moderation/04_moderation_and_ethics
       - file: ch14_moderation/05_reflections
-      - file: ch14_moderation/06_comments_and_replies/00_intro
-        sections:
-        - file: ch14_moderation/06_comments_and_replies/01_trees
-        - file: ch14_moderation/06_comments_and_replies/02_demo_recursion
-        - file: ch14_moderation/06_comments_and_replies/03_demo_recursion_real-***
-        - file: ch14_moderation/06_comments_and_replies/04_demo_hide_some_replies
+      - file: ch14_moderation/06_comments_and_replies/00_intro-***++noprogkeep
+        sections:++noprogremove
+        - file: ch14_moderation/06_comments_and_replies/01_trees++noprogremove
+        - file: ch14_moderation/06_comments_and_replies/02_demo_recursion++noprogremove
+        - file: ch14_moderation/06_comments_and_replies/03_demo_recursion_real-***++noprogremove
+        - file: ch14_moderation/06_comments_and_replies/04_demo_hide_some_replies++noprogremove
       - file: ch14_moderation/07_bibliography
     - file: ch15_moderators/00_moderators
       sections:
@@ -275,16 +275,16 @@ parts:
   - caption: Appendix
     numbered: 3
     chapters:
-      - file: appendix/making_bot_account-***
-      - file: appendix/solutions/00_solutions
-        sections:
-          - file: appendix/solutions/01_solution_practice_statements_variables_sleep-***
-          - file: appendix/solutions/02_solution_practice_data
-          - file: appendix/solutions/03_practice_lists_dictionaries
-          - file: appendix/solutions/07_practice_strings_conditionals
-          - file: appendix/solutions/08_solution_sentiment_and_loop_vars
-          - file: appendix/solutions/09_solution_functions
-          - file: appendix/solutions/ch12_solution_dictionary_counters
+      - file: appendix/making_bot_account-***++noprogkeep
+      - file: appendix/solutions/00_solutions-***++noprogkeep
+        sections:++noprogremove
+          - file: appendix/solutions/01_solution_practice_statements_variables_sleep-***++noprogremove
+          - file: appendix/solutions/02_solution_practice_data++noprogremove
+          - file: appendix/solutions/03_practice_lists_dictionaries++noprogremove
+          - file: appendix/solutions/07_practice_strings_conditionals++noprogremove
+          - file: appendix/solutions/08_solution_sentiment_and_loop_vars++noprogremove
+          - file: appendix/solutions/09_solution_functions++noprogremove
+          - file: appendix/solutions/ch12_solution_dictionary_counters++noprogremove
       - file: appendix/teaching/00_intro
         sections:
           - file: appendix/teaching/01_pedagogy
@@ -293,13 +293,13 @@ parts:
             sections:
               - file: appendix/teaching/03_course_work/01_readings
               - file: appendix/teaching/03_course_work/02_practice
-              - file: appendix/teaching/03_course_work/03_assignments/00_intro
-                sections:
-                  - file: appendix/teaching/03_course_work/03_assignments/a1_make_7_posts-***
-                  - file: appendix/teaching/03_course_work/03_assignments/a2_another_site
-                  - file: appendix/teaching/03_course_work/03_assignments/a3_troll_reply_bot-***
-                  - file: appendix/teaching/03_course_work/03_assignments/a4-political-bias-***
-                  - file: appendix/teaching/03_course_work/03_assignments/a5-best-comments-***
+              - file: appendix/teaching/03_course_work/03_assignments/00_intro-***++noprogkeep
+                sections:++noprogremove
+                  - file: appendix/teaching/03_course_work/03_assignments/a1_make_7_posts-***++noprogremove
+                  - file: appendix/teaching/03_course_work/03_assignments/a2_another_site++noprogremove
+                  - file: appendix/teaching/03_course_work/03_assignments/a3_troll_reply_bot-***++noprogremove
+                  - file: appendix/teaching/03_course_work/03_assignments/a4-political-bias-***++noprogremove
+                  - file: appendix/teaching/03_course_work/03_assignments/a5-best-comments-***++noprogremove
               - file: appendix/teaching/03_course_work/04_group_project/00_intro
                 sections:
                 - file: appendix/teaching/03_course_work/04_group_project/01_description

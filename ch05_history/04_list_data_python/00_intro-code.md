@@ -1,6 +1,4 @@
 # Looping with Lists and Dictionaries in Social Media
-_If you don't want the coding version of this online textbook go here: <a href='../../../nocode/ch05_history/04_list_data_python/00_intro.html'>No Coding</a>_
-
 
 We mentioned previously in chapter 4, we can use lists and dictionaries to represent social media data:
 

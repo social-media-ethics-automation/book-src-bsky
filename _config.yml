@@ -6,7 +6,7 @@ author: Kyle Thayer and Susan Notess
 copyright: "2023"  # Copyright year to be placed in the footer
 logo: logo.png
 
-exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", demo_jupyterbook_files, unused, "**-discord.**", "**-reddit.**", "**-bsky.**", "**-placeholder.**", "**-supporting_code.**", "fake_apis", "_intro_source.md"]
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", demo_jupyterbook_files, unused, "**-discord.**", "**-reddit.**", "**-bsky.**", "**-code.**", "**-nocode.**", "**-placeholder.**", "**-supporting_code.**", "fake_apis", "_intro_source.md"]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

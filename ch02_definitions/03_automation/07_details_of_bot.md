@@ -1,5 +1,5 @@
 # Understanding the Bluesky Bot Code
-_Choose Social Media Platform: <a href='../../../reddit/ch02_definitions/03_automation/07_details_of_bot.html'>Reddit</a> | <a href='../../../discord/ch02_definitions/03_automation/07_details_of_bot.html'>Discord</a> | __Bluesky___
+_Choose Social Media Platform: <a href='../../../reddit/ch02_definitions/03_automation/07_details_of_bot.html'>Reddit</a> | <a href='../../../discord/ch02_definitions/03_automation/07_details_of_bot.html'>Discord</a> | __Bluesky__ | <a href='../../../nocode/ch02_definitions/03_automation/07_details_of_bot.html'>No Coding</a>_
 
 
 Let's look more at that program that creates one Bluesky post.

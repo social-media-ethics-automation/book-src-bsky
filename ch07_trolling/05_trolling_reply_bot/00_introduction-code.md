@@ -1,6 +1,4 @@
 # Trolling a Reply Bot
-_If you don't want the coding version of this online textbook go here: <a href='../../../nocode/ch07_trolling/05_trolling_reply_bot/00_introduction.html'>No Coding</a>_
-
 
 We've looked at some examples of trolling, but now let's try one ourselves.
 
