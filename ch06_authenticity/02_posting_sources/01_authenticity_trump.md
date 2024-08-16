@@ -6,7 +6,7 @@ In 2016, when Donald Trump was running a campaign to be the US President, [one t
 
 (Read more in [this article from The Guardian](https://www.theguardian.com/media/2016/aug/10/donald-trump-twitter-republican-candidate-android-iphone) {cite:p}`jacksonDonaldTrumpWrites2016`)
 
-Note: we can no longer run code to check this ourselves because first, Donald Trump's account was [suspended in January 2021 for inciting violence](https://blog.twitter.com/en_us/topics/company/2020/suspension) {cite:p}`PermanentSuspensionRealDonaldTrump`, then when Elon Musk decided to reinstate Donald Trump's account (using a Twitter poll as an excuse, but how many of the votes were bots?), Elon Musk also decided to remove the ability to look up a tweet's source.
+Note: we can no longer run code to check this ourselves on Twitter, because first, Donald Trump's account was [suspended in January 2021 for inciting violence](https://blog.twitter.com/en_us/topics/company/2020/suspension) {cite:p}`PermanentSuspensionRealDonaldTrump`, then when Elon Musk decided to reinstate Donald Trump's account (using a Twitter poll as an excuse, but how many of the votes were bots?), Elon Musk also decided to remove the ability to look up a tweet's source.
 
 ## Reflection Questions
 We can ask ourselves some questions about authenticity in this story:
