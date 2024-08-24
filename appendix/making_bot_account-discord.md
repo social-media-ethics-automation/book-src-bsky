@@ -26,7 +26,7 @@ Create a Discord server
 
 ## Create a Discord "Application"
 
-_Note: Instructions are based on the official instructions here: https://discord.com/developers/docs/getting-started_
+_Note: Instructions are based on the official instructions here: [https://discord.com/developers/docs/getting-started](https://discord.com/developers/docs/getting-started)_
 
 In order for your bot to run, you must create a Discord "Application." Go to the [Discord Developer Portal](https://discord.com/developers/) and click "New Application":
 
@@ -64,34 +64,51 @@ Reset your token and save it somewhere.
 ## Get Bot Invite Link
 Next we need to create an invite link so your bot can be added to different discord servers. 
 
-To do this use the OAuth2 tab for your application. (Note: if you see an option to set Authorization method, set it to "In-app Authorization")
 
-```{figure} discord_set_oath_inapp_authorize.png
+To do this, go to the installation tab where you will be able to get an invite link.
+
+```{figure} discord_install_tab.png
 ---
-name: discord_set_oath_inapp_authorize_fig
-alt: "Screenshot of discord developer application screen with OAuth2 General tab selected."
+name: discord_install_tab_fig
+alt: "Screenshot of discord developer application screen with the Install tab selected."
 ---
-Select OAuth2 (and set Authorization method to "In-app Authorization" if asked)
+Select the install tab
 ```
 
-This may  give you a bunch of options for permissions your bot might need. We've selected a good starting set of permissions to let you do most things you'll probably want to do with your bot.
 
-```{figure} discord_set_oath_permissions.png
+ For this textbook, we suggest only using "Guild Install," then scroll down and set default scopes to:
+- application.commands
+- bot
+
+We then suggest the following permissions:
+- Attach Files
+- Create Public Threads
+- Read Message History
+- Send Messages
+- Send Messages in Threads
+- View Channels
+
+```{figure} discord_set_permissions.png
 ---
-name: discord_set_oath_permissions_fig
-alt: "Screenshot of discord developer application screen with OAuth2 General tab selected. In the Scopes section, both \"bot\" and \"applications.commands\" options selected. In the Bot Permissions section, under \"General Permissions\" one option is selected: \"Read Messages/View Channels\", under \"Text Permissions\" all options are selected except for \"Use Embedded Activities\", and under \"Voice Permissions\" no options are selected."
+name: discord_set_permissions_fig
+alt: "In the Install tab, under 'select methods' only 'Guild Install' is selected. Then below in 'Default Install Settings' under 'Guild Install' the scopes selected are 'application.commands' and 'bot'. Under permissions are 'Attach Files', 'Create Public Threads', 'Read Message History', Send Messages', 'Send Messages in Threads' and 'View Channels'."
 ---
-A starting set of permissions for your bot.
+Set default permissions
 ```
 
-Now go to URL Generator to create an invite link for your bot. You'll get a permission set of options again, where we've chosen the same permissions as before. At the very bottom there is an option to copy a the url, which is an invite link to your bot. Copy this and save it. 
-```{figure} discord_generate_url.png
+_Note: We are new to Discord bots and don't know the permission structure wells. If you are looking at doing more with your bots, you can see more about [the different permissions here](https://discord.com/developers/docs/topics/oauth2#shared-resources-oauth2-scopes), and in particular we recommend looking into adding [application commands](https://discord.com/developers/docs/interactions/application-commands)._
+
+
+Make sure to save changes!
+
+Then you can copy the Install Link
+
+```{figure} discord_copy_link.png
 ---
-name: discord_generate_url_fig
-width: 500px
-alt: "Screenshot of discord developer application screen with OAuth2 General tab selected. In the Scopes section, only the \"bot\" options is selected. In the Bot Permissions section, the same permissions are selected as in the previous screenshot. At the very bottom there is a Generated URL with a \"Copy\" button, which is circled."
+name: discord_copy_link_fig
+alt: "In the Install tab, under 'install link' is the 'Discord Provided Link', with 'copy' highlighted."
 ---
-Copy the invite link (use same permissions as before).
+Copy the install link
 ```
 
 This invite link can be given to the owner of any discord server and they can use it to invite your bot to their server.
@@ -110,9 +127,9 @@ Add your bot to one of your servers.
 
 Note: After adding app to server, there is a confirmation page about the permissions. "Authorize" your bot.
 
-## Get Channel Id Number
+## Get Channel Id and Server Id Numbers
 
-One additional piece of information you might need for your bot is the channel ID for a channel in a discord server. In order to get a channel ID, open your settings menu.
+Two additional pieces of information you might need for your bot ares the channel ID for a channel in a discord server, and the server ID (or "Guild Id") for the server itself. In order to get the channel IDs, and server IDs, open your settings menu.
 
 ```{figure} discord_enable_dev_mode_1.png
 ---
@@ -143,7 +160,17 @@ alt: "A screenshot of a discord server page. One of the channels has been right-
 Copy the channel ID by right clicking.
 ```
 
-Save the channel ID somewhere so you can have your bot reference it later (e.g., post to that channel).
+You can also get the server ID (or "Guild ID") by right-clicking on a channel.
+```{figure} discord_copy_server_id.png
+---
+name: discord_copy_server_id_fig
+width: 400px
+alt: "A screenshot of a discord server page. One of the servers has been right-clicked on, and the very bottom of the right-click menu is the \"Copy Server ID\" option, which is circled."
+---
+Copy the server ID by right clicking.
+```
+
+Save the channel IDs and server IDs somewhere so you can have your bot reference it later (e.g., post to that channel).
 
 ##  Test your tokens
 Now that you have your token, and other info, you can test out your code in chapter 2.3.8 ([](../../ch02_definitions/03_automation/08_demo.ipynb)). You can try running the code and replacing the fake discord token and channel ids with the ones from your account, and see if you can use the code to make an actual post to your account.
