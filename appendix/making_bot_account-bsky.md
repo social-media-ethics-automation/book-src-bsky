@@ -17,7 +17,7 @@ Note 2: If you want to make a new account and you already have one, you may need
 
 
 ##  Test your keys
-Now that you have your Bluesky handle and password, you can test out your code in chapter 2.3.8 ([](../../ch02_definitions/03_automation/08_demo.ipynb)). Try running the code and replacing the fake handle and password with the ones from your account, and see if you can use the code to make an actual Bluesky post to your account.
+Now that you have your Bluesky handle and password, you can test out your code in chapter 2.3.8 ([](../ch02_definitions/03_automation/08_demo.ipynb)). Try running the code and replacing the fake handle and password with the ones from your account, and see if you can use the code to make an actual Bluesky post to your account.
 
 ## Understand Bluesky Rules for Bots
 Before you try doing anything too creative with Bluesky bots, make sure you look over the [Bluesky Bot Policy](https://docs.bsky.app/docs/starter-templates/bots#rate-limits--respecting-other-users), and the [Bluesky Community Guidelines](https://bsky.social/about/support/community-guidelines), that way you don't get yourself banned.

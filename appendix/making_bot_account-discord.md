@@ -61,11 +61,22 @@ alt: "Screenshot of discord developer application screen with Bot tab selected a
 Reset your token and save it somewhere.
 ```
 
-## Get Bot Invite Link
+## Get Bot Invite Link and Set Permissions
 Next we need to create an invite link so your bot can be added to different discord servers. 
 
+First, go to the "Bot" tab and enable "Message Content Intent" so that our bot will be able to read messages on discord in the future.
 
-To do this, go to the installation tab where you will be able to get an invite link.
+
+```{figure} discord_message_content_intent.png
+---
+name: discord_message_content_intent_fig
+alt: "Screenshot of discord developer application screen with the Bot tab selected and within there, under 'Privileged Gateway Intents' the 'Message Content Intent' is enabled."
+---
+Enable "Message Content Intent"
+```
+
+
+Now, to get a bot invite link, go to the installation tab where you will be able to get an invite link.
 
 ```{figure} discord_install_tab.png
 ---
@@ -173,7 +184,7 @@ Copy the server ID by right clicking.
 Save the channel IDs and server IDs somewhere so you can have your bot reference it later (e.g., post to that channel).
 
 ##  Test your tokens
-Now that you have your token, and other info, you can test out your code in chapter 2.3.8 ([](../../ch02_definitions/03_automation/08_demo.ipynb)). You can try running the code and replacing the fake discord token and channel ids with the ones from your account, and see if you can use the code to make an actual post to your account.
+Now that you have your token, and other info, you can test out your code in chapter 2.3.8 ([](../ch02_definitions/03_automation/08_demo.ipynb)). You can try running the code and replacing the fake discord token and channel ids with the ones from your account, and see if you can use the code to make an actual post to your account.
 
 ## Understand Discord Rules for Bots
 Before you try doing anything too creative with Discord bots, make sure you look over the [Discord Developer Policy](https://discord.com/developers/docs/policies-and-agreements/developer-policy), that way you don't get yourself banned.
