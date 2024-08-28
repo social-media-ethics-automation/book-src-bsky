@@ -154,6 +154,7 @@ parts:
       - file: ch10_accessibility/04_alt_text/00_intro
         sections:
         - file: ch10_accessibility/04_alt_text/01_alt_text
+        - file: ch10_accessibility/04_alt_text/02_demo_alt_text
       - file: ch10_accessibility/05_accessibility_on_social_media
       - file: ch10_accessibility/06_bibliography
     - file: ch11_recommendations/00_recommendations
