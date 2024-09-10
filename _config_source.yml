@@ -3,7 +3,7 @@
 
 title:  Social Media, Ethics, and Automation
 author: Kyle Thayer and Susan Notess
-copyright: "2023"  # Copyright year to be placed in the footer
+copyright: "2024"  # Copyright year to be placed in the footer
 logo: logo.png
 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", demo_jupyterbook_files, unused, "**-discord.**", "**-reddit.**", "**-bsky.**", "**-code.**", "**-nocode.**", "**-placeholder.**", "**-supporting_code.**", "fake_apis", "_intro_source.md"]
@@ -29,7 +29,13 @@ bibtex_bibfiles:
   - references.bib
 
 sphinx:
+  extra_extensions:
+    - sphinxext.opengraph
   config:
+    ogp_image: "https://social-media-ethics-automation.github.io/book/reddit/_images/logo.png"
+    language: en
+    ogp_type: book
+    ogp_site_name: "Social Media, Ethics, and Automation"
     bibtex_reference_style: label
     bibtex_default_style: unsrt
     bibtex_bibfiles: ["ch01_intro/ch01_references.bib", "ch02_definitions/ch02_references.bib", 
@@ -41,7 +47,6 @@ sphinx:
     "ch18_public_shaming/ch18_references.bib", "ch19_capitalism/ch19_references.bib", "ch20_colonialism/ch20_references.bib",
     "ch21_conclusions/ch21_references.bib"]
 
-
 # Information about where the book exists on the web
 repository:
   url: https://github.com/social-media-ethics-automation/book/  # TODO Script updates this to platform specific copy
@@ -52,6 +57,11 @@ launch_buttons:
   # colab_url: "https://colab.research.google.com"
   binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
   # thebe: true
+
+opengraph:
+  title: "Social Media, Ethics, and Automation by Kyle Thayer and Susan Notess"
+  image: logo.png
+  description: Free online textbook teaching how to make social media bots and think about the ethics of what that means.
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
