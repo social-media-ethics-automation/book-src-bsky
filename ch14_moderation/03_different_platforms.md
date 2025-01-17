@@ -36,5 +36,9 @@ For a period of time, most news organizations allowed comments on their articles
 ## Public Figure Exception
 Twitter, Facebook, and other platforms had an [exception to their normal moderation policies for political leaders](https://help.twitter.com/en/rules-and-policies/public-interest) {cite:p}`PublicinterestExceptionsEnforcement`, where they wouldn’t ban them even if they violated site policies (most notably applied to Donald Trump). After the January 6th insurrection at the US Capital, Donald Trump was banned first from Twitter, then from Facebook, and [Facebook announced an end to special treatment for politicians](https://www.theverge.com/2021/6/3/22474738/facebook-ending-political-figure-exemption-moderation-policy) {cite:p}`heathFacebookEndSpecial2021`.
 
+
+% TODO: Discord is going to give out warnings instead of permanent bans https://www.theverge.com/2023/10/19/23923646/discord-warning-system-moderation-teen-safety-new-mobile-features
+% "Unlike many other platforms, Discord isn’t taking a “three strikes and you’re out” approach here, instead trying to educate users to improve their interactions online. “We believe people, especially teens, have the ability to change when given the opportunity, so we want to offer those opportunities,” says Badalich."
+
 # Government Censorship
 Governments might also have rules about content moderation and censorship, such as laws in the US against CSAM. China additionally censors various news stories in their country, like stories about protests. In addition to banning news on their platforms, in late 2022 China took advantage of Elon Musk having fired almost all Twitter content moderators to hide news of protests by [flooding Twitter with spam and porn](https://techcrunch.com/2022/11/28/great-wall-of-porn-obscures-china-protest-news-on-twitter/) {cite:p}`shuGreatWallPorn2022`.
