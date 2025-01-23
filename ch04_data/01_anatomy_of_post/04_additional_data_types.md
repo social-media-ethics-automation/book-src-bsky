@@ -22,10 +22,10 @@ __Images__ are created by defining a grid of dots, called pixels. Each pixel has
 name: pixels_fire_emoji_fig
 alt: "Two images of a fire emoji on a screen. The first is small and a little zoomed in, and you can sort of make out that the image is made of a bunch of squares. The second image is very zoomed in, and the white area behind the emoji is bands of red, green, and blue (which don't look they make white when separated), and the orange part of the fire mostly has just red bands, and the yellow part is red and green bands of color."
 ---
-When viewing the fire emoji (🔥) close-up on a screen, you can see the bands of red, green, and blue that make up each pixel. If you try squinting your eyes or looking at the image from far away, it should blur back into the emoji.
+When viewing the fire emoji (🔥) close-up on a screen, you can see the bands of red, green, and blue that make up each pixel. If you try squinting your eyes or looking at the image from far away, it should blur back into the emoji. _Note: These are actual photos taken by Kyle of his TV screen._
 ```
 
-% TODO: Images can also be represented as lists of shapes, colors, lines, etc. that can be redrawn to make the image ([vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) {cite:p}`VectorGraphics2023`).
+Images can also be represented as lists of shapes, colors, lines, etc. These can then be used to calculate a pixel image for displaying (e.g., [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) {cite:p}`VectorGraphics2023`).
 
 __Sounds__ are represented as the electric current needed to move a speaker's diaphragm back and forth over time to make the specific sound waves. The electric current is saved as a number, and those electric current numbers are saved at each time point, so the sound information is saved as a list of numbers.
 
@@ -40,17 +40,13 @@ A computer representation of the sound of Kyle saying "this."
 
 ```{figure} sound_wave_animation.gif
 ---
-width: 400px
-alt: An animation showing a sound wave data going up and down (like a sine wave). When the wave is high it pushes the speaker diaphragm away, and when it is low it pulls the speaker diaphragm closer, and as the diaphragm goes back and forth, sound waves come off of it.
+alt: "An animation showing a sound wave going up and down in sine wave (with labeled numbers for the height: 0.0, 0.5, 0.87, 1.0, 0.87, 0.5, 0.0, -0.5, etc.). When the wave is positive, it makes the current go through a wire one way, and when negative makes the current go the other way. When the wave is positive and current going one way it makes an electromagnetic force on the speaker diaphragm going away, and when it is negative it makes an electromagnetic force pulling the speaker diaphragm closer. The diaphragm moving back and forth makes sound waves that leave the speaker. Note: The movement of the diaphragm doesn't match the force, but is delayed by a quarter cycle, like how when an object is stretching a spring, the strings force will first slow object down and then the object will change directions and come back toward the spring."
 align: center
 ---
-How sound information turns into an electric signal, which then works with a magnet to push and pull on a [diaphragm inside a speaker](https://en.wikipedia.org/wiki/Electrodynamic_speaker_driver#Components) to create physical sound waves. Microphones do this process in exactly the reverse, the sound waves in the air make the speaker diaphragm go back and forth, making an electric current in the wire which gets measured and saved by the computer.
+How sound data gets turned into sound waves: The numerical sound data is turned into an electrical current through a wire, which creates an electromagnetic force which then pushes and pulls on a [diaphragm inside a speaker](https://en.wikipedia.org/wiki/Electrodynamic_speaker_driver#Components) to create physical sound waves. Microphones do this process in exactly the reverse, the sound waves in the air make the speaker diaphragm go back and forth, making an electric current in the wire which gets measured and saved by the computer.
 ```
 
-% TODO: Sound can also be represented in other ways, such as music being represented by lists of which instrument should play which note at which time (see [MIDI files](https://en.wikipedia.org/wiki/MIDI) {cite:p}`MIDI2023`).
-
-% TODO: Mention Ada lovelace
-
+Sound can also be represented in other ways, such as music being represented by lists of which instrument should play which note at which times (e.g., [MIDI files](https://en.wikipedia.org/wiki/MIDI) {cite:p}`MIDI2023`), which is closer to how Ada Lovelace imagined computers representing music in her 1842 quote we included in chapter 2.3.3 ([](../../ch02_definitions/03_automation/03_binary.md)).
 
 
 __Videos__ are represented as a sequence of images (a list of images) called frames, often with a sound wave to be played at the same time.
