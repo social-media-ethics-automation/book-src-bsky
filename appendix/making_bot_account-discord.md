@@ -86,6 +86,8 @@ alt: "Screenshot of discord developer application screen with the Install tab se
 Select the install tab
 ```
 
+Then paste this link in a new browser tab, and when the page loads it should ask permission to add your bot to a server if you want.
+
 
  For this textbook, we suggest only using "Guild Install," then scroll down and set default scopes to:
 - application.commands
