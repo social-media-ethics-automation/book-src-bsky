@@ -11,10 +11,10 @@ A sequence of extinct animals in the chain of evolution from mammals related to 
 ```
 ````
 
-In order to understand what we are talking about when we say something goes "viral", we need to first understand evolution and memes.
+In order to understand what we are talking about when we say something goes "viral", we need to first understand biological evolution and how it relates to the origin of the scientific term "meme."
 
 
-## Evolution
+## Biological Evolution
 
 
 Biological evolution is how living things change, generation after generation, and how all the different forms of life, from humans to bacteria, came to be.
