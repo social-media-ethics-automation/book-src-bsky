@@ -1,9 +1,11 @@
 jupyter-book
+jupyterquiz
 matplotlib
 numpy
-tweepy
+pandas
 praw
 discord
-jupyterquiz
+discord-py-interactions
+atproto
 nltk
 nest_asyncio
