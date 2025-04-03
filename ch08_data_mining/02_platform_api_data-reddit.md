@@ -1,6 +1,6 @@
 # Data From the Reddit API
 
-When we've been accessing Reddit through Python and the "PRAW" code library. The praw code library works by sending requests across the internet to Reddit, using what is called an "[application programming interface](https://en.wikipedia.org/wiki/API)" {cite:p}`API2023a` or API for short. APIs have a set of rules for what requests you can make, what happens when you make the request, and what information you can get back.
+We've been accessing Reddit through Python and the "PRAW" code library. The praw code library works by sending requests across the internet to Reddit, using what is called an "[application programming interface](https://en.wikipedia.org/wiki/API)" {cite:p}`API2023a` or API for short. APIs have a set of rules for what requests you can make, what happens when you make the request, and what information you can get back.
 
 If you are interested in learning more about what you can do with praw and what information you can get back, you can look at the official documentation for those. But be warned they are not organized in a friendly way for newcomers and take some getting used to to figure out what these documentation pages are talking about.
 
