@@ -21,7 +21,7 @@ We hope after completing this book you will be informed and engaged as social me
 ## Download and Versions
 There are different versions of this book for making bots in different platforms: 
 
-_Choose Social Media Platform: <a href='../reddit/intro.html'>Reddit</a> | <a href='../discord/intro.html'>Discord</a> | __Bluesky__ | <a href='../nocode/intro.html'>No Coding</a>_
+_Choose Social Media Platform: __Bluesky__ | <a href='../reddit/intro.html'>Reddit</a> | <a href='../discord/intro.html'>Discord</a> | <a href='../nocode/intro.html'>No Coding</a>_
 
 You can <a href='./social_media_ethics_automation_bsky.pdf'>download this book as a pdf here </a> (though not everything will work correctly or be interactive as a pdf). (Also, if anyone knows how to make jupyterbooks make separate pdfs for each chapter, please let Kyle know.)
 

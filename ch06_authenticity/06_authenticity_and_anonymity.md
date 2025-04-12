@@ -70,4 +70,4 @@ See more:
 - [Online abuse: banning anonymous social media accounts is not the answer](https://theconversation.com/online-abuse-banning-anonymous-social-media-accounts-is-not-the-answer-170224) {cite:p}`dyerOnlineAbuseBanning2021`
 - [The Right to Anonymity is Vital to Free Expression: Now and Always](https://www.eff.org/deeplinks/2020/03/right-anonymity-vital-free-expression-now-and-always) {cite:p}`yorkRightAnonymityVital2020`
 - [The Real Name Fallacy](https://coralproject.net/blog/the-real-name-fallacy/) {cite:p}`coralprojectRealNameFallacy2017`
-- [Online anonymity: study found ‘stable pseudonyms’ created a more civil environment than real user names](https://theconversation.com/online-anonymity-study-found-stable-pseudonyms-created-a-more-civil-environment-than-real-user-names-171374){cite:p}`moore_online_2021`
+- [Online anonymity: study found ‘stable pseudonyms’ created a more civil environment than real user names](https://theconversation.com/online-anonymity-study-found-stable-pseudonyms-created-a-more-civil-environment-than-real-user-names-171374) {cite:p}`moore_online_2021`
