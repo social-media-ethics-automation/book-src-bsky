@@ -38,6 +38,7 @@ align: center
 A computer representation of the sound of Kyle saying "this."
 ```
 
+% NOTE: sound_wave_animation.gif source files are here: https://github.com/kylethayer/wiki_diagrams/tree/main/speaker_diagram
 ```{figure} sound_wave_animation.gif
 ---
 alt: "An animation showing a sound wave going up and down in sine wave (with labeled numbers for the height: 0.0, 0.5, 0.87, 1.0, 0.87, 0.5, 0.0, -0.5, etc.). When the wave is positive, it makes the current go through a wire one way, and when negative makes the current go the other way. When the wave is positive and current going one way it makes an electromagnetic force on the speaker diaphragm going away, and when it is negative it makes an electromagnetic force pulling the speaker diaphragm closer. The diaphragm moving back and forth makes sound waves that leave the speaker. Note: The movement of the diaphragm doesn't match the force, but is delayed by a half cycle, like how when an object is stretching a spring, the strings force will first slow object down and then the object will change directions and come back toward the spring."
