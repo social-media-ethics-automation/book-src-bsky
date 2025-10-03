@@ -28,6 +28,12 @@ parse:
 bibtex_bibfiles:
   - references.bib
 
+# timeout on notebook building so I don't get unnecessary errors
+# especially if I sleep my laptop in the middle of building
+# note: I could set to something more like 300s if I wanted
+execute:
+  timeout: -1
+
 sphinx:
   extra_extensions:
     - sphinxext.opengraph

@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Which of the following saves the text \"Time to go to class\" into a variable named \"alarm_message\" in the Python programming language?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "<pre>\"Time to go to class\" -> alarm_message</pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre>\"alarm_message\" <- \"Time to go to class\"</pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre>alarm_message = \"Time to go to class\"</pre>",
+                "correct": true
+            },
+            {
+                "answer": "<pre>\"alarm_message\" = \"Time to go to class\"</pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre>\"Time to go to class\" = \"alarm_message\"</pre>",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Given the following code: <pre>a = 7</pre> What next line of code would show what is saved in the variable \"a\"?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "<pre>display(\"a\")</pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre>display(a)</pre>",
+                "correct": true
+            },
+            {
+                "answer": "<pre>a display()</pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre>\"a\" display()</pre>",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What happens when you run the following code: <pre>a = 2\ndisplay(a)\na = a + 1\ndisplay(a)</pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Output: <pre>1\n2\n</pre>",
+                "correct": false
+            },
+            {
+                "answer": "Output: <pre>2\n</pre>",
+                "correct": false
+            },
+            {
+                "answer": "Output: <pre>2\n3\n</pre>",
+                "correct": true
+            },
+            {
+                "answer": "Output: <pre>3\n3\n</pre>",
+                "correct": false
+            }
+        ]
+    }
+]

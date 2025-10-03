@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Which of the following code structure is the main feature used to repeat actions:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Statements",
+                "correct": false
+            },
+            {
+                "answer": "Variables",
+                "correct": false
+            },
+            {
+                "answer": "Loops",
+                "correct": true
+            },
+            {
+                "answer": "Pausing/Scheduling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following code structure is the main feature used to save information for later:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Statements",
+                "correct": false
+            },
+            {
+                "answer": "Variables",
+                "correct": true
+            },
+            {
+                "answer": "Loops",
+                "correct": false
+            },
+            {
+                "answer": "Pausing/Scheduling",
+                "correct": false
+            }
+        ]
+    }
+]
