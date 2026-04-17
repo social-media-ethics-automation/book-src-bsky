@@ -1,7 +1,17 @@
 # The case of Justine Sacco’s racist joke tweet
 
-In 2013, Justine Sacco, a PR director at IAC, was boarding a flight to South Africa, and posted the following racist and insensitive joke tweet, which went viral while she was in-flight and unable to check Twitter:
-> ![Screenshot of Justine Sacco's tweet, which says: Going to Africa. Hope I don't get AIDS. Just kidding. I'm white!](sacco_tweet.png)
+In 2013, Justine Sacco, a PR director at IAC, was boarding a flight to South Africa, and posted the following racist and insensitive joke tweet[^sacco_tweet_footnote], which went viral while she was in-flight and unable to check Twitter:
+
+[^sacco_tweet_footnote]: The tweet is problematic for a number of reasons such as: making light of a serious problem, treating "Africa" as one place, playing into stereotypes and conspiracy theories about race and AIDS.
+
+```{figure} sacco_tweet.png
+---
+name: sacco_tweet
+width: 461px
+alt: Screenshot of Justine Sacco's tweet, which says: Going to Africa. Hope I don't get AIDS. Just kidding. I'm white!
+---
+Justine Sacco's Tweet
+```
 
 ## Timeline of events:
 1. Justine Sacco, a PR director at IAC with only 170 followers posted a racist joke tweet right before getting on an 11-hour flight to South Africa

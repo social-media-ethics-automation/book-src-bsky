@@ -1,4 +1,5 @@
 .DS_Store
 *-checkpoint.ipynb
 */__pycache__/*
+*.pyc
 *.jupyter_cache

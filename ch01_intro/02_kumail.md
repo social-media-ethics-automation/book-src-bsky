@@ -1,6 +1,13 @@
 # Kumail Nanjiani's Reflections on Ethics in Tech
 
-![Photo of Kumail Nanjiani](kumail.png) [Image source](https://commons.wikimedia.org/wiki/File:Kumail_Nanjiani_by_Gage_Skidmore_2.jpg) {cite:p}`skidmore_english_2019`
+```{figure} kumail.png
+---
+name: kumail_photo
+width: 200px
+alt: Photo of Kumail Nanjiani
+---
+[Photo of Kumail Nanjiani](https://commons.wikimedia.org/wiki/File:Kumail_Nanjiani_by_Gage_Skidmore_2.jpg) {cite:p}`skidmore_english_2019`
+```
 
 
 Kumail Nanjiani was a star of the [Silicon Valley](https://www.imdb.com/title/tt2575988/) {cite:p}`altschuler_silicon_2014` TV Show, which was about the tech industry. He posted these reflections on ethics in tech on Twitter (@kumailn) on November 1, 2017:

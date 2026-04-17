@@ -6,7 +6,15 @@ When we (the authors) were young, as internet-based social media was starting to
 This was used as a way to devalue time spent on social media sites, and to dismiss harms that occurred on them. 
 
 Versions of this phrase are still around, such as in this tweet from statistician Nate Silver:
-> [![Nate Silver tweets: "Twitter is not real life part 69420", quote tweeting Harry Enten saying "Most of the polling indicated NYC'ers wanted Amazon in NYC. When tax breaks were mentioned, support did fall. But even with it mentioned, support was very strong in Queens." Tweet was post at 8:55 AM on February 14th, 2019.](twitter_not_real_life.png)](https://twitter.com/natesilver538/status/1096090507762167810) {cite:p}`natesilver[@natesilver538]TwitterNotReal2019a`
+```{figure} twitter_not_real_life.png
+---
+name: twitter_not_real_life
+width: 400px
+alt: Nate Silver tweets: "Twitter is not real life part 69420", quote tweeting Harry Enten saying "Most of the polling indicated NYC'ers wanted Amazon in NYC. When tax breaks were mentioned, support did fall. But even with it mentioned, support was very strong in Queens." Tweet was post at 8:55 AM on February 14th, 2019.
+---
+Nate Silver tweet on ["Twitter is not real life"](twitter_not_real_life.png)](https://twitter.com/natesilver538/status/1096090507762167810) {cite:p}`natesilver[@natesilver538]TwitterNotReal2019a`
+```
+
 
 In that tweet, Nate Silver seems to be saying that conversations and views represented on Twitter are not representative of most people, thus devaluing the conversations and views expressed on Twitter.
 

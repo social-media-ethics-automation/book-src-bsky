@@ -7,7 +7,7 @@ While we have made a fake version of Bluesky for you to test all the code in thi
 ## Sign up for Bluesky
 [https://bsky.app/](https://bsky.app/)
 
-We suggest making a new, separate Bluesky account, just for making Bluesky bots, since you don't want to accidentally get your main Bluesky account banned or labeled as a bot. Also we suggest using a different password than you use for other accounts, since you might accidentally share it with your code.
+We suggest making a new, separate Bluesky account, just for making Bluesky bots, since you don't want to accidentally get your main Bluesky account banned or suspended. You can [label your account as "automated"](https://bsky.app/settings/automation-label), which will make it clear to other users that this is a bot, and also hopefully reduce your chances of being suspended for acting like a bot. Also we suggest using a different password than you use for other accounts, since you might accidentally share it with your code.
 
 Make sure you record your full handle (should look something like: "info103-teacher.bsky.social") and your password.
 
