@@ -20,7 +20,7 @@ Though you may not understand anything in the above code yet, I want to point ou
 
 
 - The indented lines of code gives good hints as to what it is doing: `login` is where you login to your Bluesky account, and `send_post` has the information to make as a new post.
-- Note that the line with `login` is where you would put your Bluesky account handle (login name) and your password (see the page on [setting up your Bluesky bot](../../appendix/making_bot_account.md)). Once you put your own handle and password in those locations, then this code will make a discord post
+- Note that the line with `login` is where you would put your Bluesky account handle (login name) and your password (see the page on [setting up your Bluesky bot](../../appendix/making_bot_account.md)). Once you put your own handle and password in those locations, then this code will make a Bluesky post
 
 ```{figure} bsky_bot_post.png
 ---

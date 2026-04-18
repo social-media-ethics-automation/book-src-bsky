@@ -1,5 +1,5 @@
 # Making a Bot Account (Bluesky)
-_Choose Social Media Platform: __Bluesky__ | <a href='../../reddit/appendix/making_bot_account.html'>Reddit</a> | <a href='../../discord/appendix/making_bot_account.html'>Discord</a> | <a href='../../nocode/appendix/making_bot_account.html'>No Coding</a>_
+_Choose Social Media Platform: __Bluesky__ | <a href='../../reddit/appendix/making_bot_account.html'>Reddit</a> | <a href='../../discord/appendix/making_bot_account.html'>Discord</a> | <a href='../../mastodon/appendix/making_bot_account.html'>Mastodon</a> | <a href='../../nocode/appendix/making_bot_account.html'>No Coding</a>_
 
 
 In using this textbook, you will have opportunities to create and run social media bots. Here we will run through how to create a Bluesky account (note: unlike most social media sites, we don't have to do extra steps to get bots to enable bots on Bluesky accounts).
