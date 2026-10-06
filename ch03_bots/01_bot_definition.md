@@ -8,7 +8,9 @@ There are other ways of programming with social media that we won't consider a b
 
 Bots, on the other hand, will do actions through social media accounts and can appear to be like any other user. The bot might be the only thing posting to the account, or human users might sometimes use a bot to post for them.
 
-Note that sometimes people use "bots" to mean inauthentically run accounts, such as those run by actual humans, but are paid to post things like advertisements or political content. We will not consider those to be bots, since they aren't run by a computer. Though we might consider these to be run by "human computers" who are following the instructions given to them, such as in a click farm:
+In some corners of the internet, there can be more content from bots than from humans, so most of your interactions in those places might be from bots and not other humans. For example, you might get into heated arguments about sports, music, or politics, and be interacting with hundreds of accounts, but you might not realize they are all only automated bots. This is informally called the "[dead internet theory](https://en.wikipedia.org/wiki/Dead_Internet_theory)." {cite:p}`noauthor_dead_2026`
+
+Note that sometimes people use "bots" to mean inauthentically run accounts, such as those run by actual humans, but are paid to post things like advertisements or political content. We will not consider those to be bots, since they aren't run by a computer. Though we could consider these to be run by "human computers" who are following the instructions given to them, such as in a click farm:
 
 ```{figure} click_farmer.jpg
 ---
